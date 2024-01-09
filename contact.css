@@ -29,20 +29,20 @@ header a {
   display: flex;
 }
 
-.login-container {
+.contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.login {
-  height: 550px;
+.contact {
+  height: 600px;
   width: 550px;
   background-color: #fe365e;
   border-radius: 30px;
 }
 
-.login h3 {
+.contact h3 {
   text-align: center;
   color: white;
   font-size: 35px;
@@ -60,7 +60,7 @@ form {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  gap: 20px;
+  gap: 25px;
 }
 
 form input {
@@ -71,7 +71,6 @@ form input {
   color: black;
   font-weight: bold;
 }
-
 input[type="submit"] {
   padding: 20px 30px;
   width: 50%;
@@ -82,4 +81,14 @@ input[type="submit"] {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+}
+
+textarea {
+  padding: 20px 30px;
+  width: 50%;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  resize: none;
 }
