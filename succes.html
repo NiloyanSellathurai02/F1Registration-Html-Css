@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="succes.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/f1registration.png" alt="logo" class="logo-img" />
+      </div>
+      <div class="menu-list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="leaderboard.html">Leaderboards</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="register-login">
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+      </div>
+    </header>
+    <div class="succes-container">
+      <div class="succes">
+        <img src="checked.png" alt="succes-image" class="succes-img" />
+        <h1>Successfully Uploaded!</h1>
+        <p>
+          The entered score is still being considered.<br />
+          This will take several working days.<br />
+          For now you will see your score in bold.
+        </p>
+        <a class="succes-btn" href="{{ url('/leaderboard') }}">See the main leaderboard</a>
+      </div>
+    </div>
+  </body>
+</html>
