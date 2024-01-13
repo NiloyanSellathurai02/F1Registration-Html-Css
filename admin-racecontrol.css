@@ -1,0 +1,111 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-uploadRace-heading {
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.admin-race-table {
+  display: flex;
+  /* justify-content: space-around; */
+  border: 1px solid rgb(0, 0, 0);
+  width: 1007px;
+  height: 30px;
+  font-size: 22px;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.user-history-value {
+  display: flex;
+  /* justify-content: space-around; */
+  border: 0.5px solid rgb(0, 0, 0);
+  background-color: rgb(121, 121, 121);
+  color: whitesmoke;
+  width: 1007px;
+  font-size: 20px;
+}
+
+.user-history-driver {
+  border-right: 1px solid black;
+  width: 200px;
+  text-align: center;
+}
+
+.user-history-driver-value {
+  border-right: 1px solid black;
+  width: 200px;
+  text-align: center;
+}
+
+.user-history-track {
+  border-right: 1px solid black;
+  width: 150px;
+  text-align: center;
+}
+
+.user-history-track-value {
+  border-right: 1px solid black;
+  width: 150px;
+  text-align: center;
+}
+
+.user-history-time {
+  border-right: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+
+.user-history-time-value {
+  border-right: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+
+.user-history-created_at {
+  width: 150px;
+  text-align: center;
+  border-right: 1px solid black;
+}
+.user-history-created_at-value {
+  width: 150px;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.user-upload-value {
+  border-right: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+
+.user-upload-accept {
+  border-right: 1px solid black;
+  width: 150px;
+  text-align: center;
+}
+
+.user-upload-reject {
+  border-right: 1px solid black;
+  width: 150px;
+  text-align: center;
+}
+
+.user-upload-accept-cta {
+  border-right: 1px solid black;
+  width: 150px;
+  text-align: center;
+}
+
+.user-upload-reject-cta {
+  border-right: 1px solid black;
+  width: 150px;
+  text-align: center;
+}
