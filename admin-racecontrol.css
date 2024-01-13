@@ -19,7 +19,8 @@
   width: 1007px;
   height: 30px;
   font-size: 22px;
-  background-color: #ffffff;
+  background-color: #e10600;
+  color: whitesmoke;
   font-weight: bold;
 }
 
@@ -27,8 +28,8 @@
   display: flex;
   /* justify-content: space-around; */
   border: 0.5px solid rgb(0, 0, 0);
-  background-color: rgb(121, 121, 121);
-  color: whitesmoke;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   width: 1007px;
   font-size: 20px;
 }
@@ -108,4 +109,14 @@
   border-right: 1px solid black;
   width: 150px;
   text-align: center;
+}
+
+.user-upload-accept-cta a {
+  text-decoration: none;
+  color: rgb(0, 194, 0);
+}
+
+.user-upload-reject-cta a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
 }
