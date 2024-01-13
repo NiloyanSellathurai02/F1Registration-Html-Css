@@ -23,7 +23,7 @@
   font-weight: bold;
 }
 
-.user-history-value {
+.admin-race-value {
   display: flex;
   /* justify-content: space-around; */
   border: 0.5px solid rgb(0, 0, 0);
@@ -33,48 +33,48 @@
   font-size: 20px;
 }
 
-.user-history-driver {
+.admin-race-driver {
   border-right: 1px solid black;
   width: 200px;
   text-align: center;
 }
 
-.user-history-driver-value {
+.admin-race-driver-value {
   border-right: 1px solid black;
   width: 200px;
   text-align: center;
 }
 
-.user-history-track {
+.admin-race-track {
   border-right: 1px solid black;
   width: 150px;
   text-align: center;
 }
 
-.user-history-track-value {
+.admin-race-track-value {
   border-right: 1px solid black;
   width: 150px;
   text-align: center;
 }
 
-.user-history-time {
+.admin-race-time {
   border-right: 1px solid black;
   width: 100px;
   text-align: center;
 }
 
-.user-history-time-value {
+.admin-race-time-value {
   border-right: 1px solid black;
   width: 100px;
   text-align: center;
 }
 
-.user-history-created_at {
+.admin-race-created_at {
   width: 150px;
   text-align: center;
   border-right: 1px solid black;
 }
-.user-history-created_at-value {
+.admin-race-created_at-value {
   width: 150px;
   text-align: center;
   border-right: 1px solid black;
