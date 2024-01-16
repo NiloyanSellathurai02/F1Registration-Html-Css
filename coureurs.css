@@ -56,3 +56,30 @@ header a {
   font-weight: bold;
   cursor: pointer;
 }
+.coureurs-container {
+  padding: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: whitesmoke;
+}
+
+.coureurs-details {
+  width: 30%;
+}
+
+.coureurs-details h1 {
+  font-size: 40px;
+}
+
+.coureurs-details p {
+  font-size: 20px;
+}
+
+.coureur-imag {
+  width: 70%;
+}
+
+.coureur-image {
+  height: 500px;
+}
